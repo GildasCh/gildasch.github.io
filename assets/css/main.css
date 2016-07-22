@@ -1,0 +1,10 @@
+@font-face {
+  font-family: 'Fantasque Sans Mono';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Fantasque Sans Mono'), local('Fantasque Sans Mono'), url('{{site.url}}/assets/FantasqueSansMono-Regular.ttf') format('truetype');
+}
+
+body {
+  font-family: 'Fantasque Sans Mono';
+}
