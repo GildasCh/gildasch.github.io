@@ -1,7 +1,6 @@
 @font-face {
   font-family: 'Fantasque Sans Mono';
   font-weight:200;
-  font-size:14px;
   src: local('Fantasque Sans Mono'), local('Fantasque Sans Mono'), url('//gildasch.github.io/assets/FantasqueSansMono-Regular.ttf') format('truetype');
 }
 
@@ -9,6 +8,10 @@ body {
   font-family: 'Fantasque Sans Mono';
   background-color:#263238;
   color:white;
+  font-size:18px;
+  box-shadow: rgba(0, 0, 0, 0.05) 13px 0px 10px 2px;
+  max-width:1000px;
+  margin:auto;
 }
 
 /* Colors:
@@ -31,11 +34,51 @@ blue #4dd0e1
 purple #b39ddb
 */
 
-h1 {
-    font-size:5em;
+#header {
+    font-size:4em;
     margin:0;
     color:#81d4fa;
     font-weight:200;
+    text-align:center;
+}
+
+#content {
+}
+
+#footer {
+    margin-top:20px;
+    padding-bottom:10px;
+    color:#78909c;
+    text-align:center;
+}
+
+#footer hr {
+    border-color:#78909c;
+}
+
+h1 {
+    color:#f36c60;
+}
+
+h2 {
+    color:#8bc34a;
+}
+
+h3 {
+    // orange color:#ff9800;
+    color:#fff59d;
+}
+
+h4 {
+    color:#b0bec5;
+}
+
+em {
+}
+
+strong {
+    color:#b0bec5;
+    font-weight:normal;
 }
 
 a {
@@ -48,6 +91,13 @@ a:hover {
     background-color:#bf616a;
 }
 
-quote {
-    color:#b0bec5;
+quote, blockquote {
+    background-color:#37474f;
+}
+
+blockquote {
+    padding:2px;
+    border-left:3px solid white;
+    margin-left:20px;
+    padding-left:20px;
 }
